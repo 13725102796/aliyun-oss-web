@@ -1,5 +1,5 @@
 <p align="center">
-    <!-- <img alt="logo" src="https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png" width="120" style="margin-bottom: 10px;"> -->
+    <!-- <img alt="logo" src="" width="120" style="margin-bottom: 10px;"> -->
 </p>
 <h3 align="center" style="margin: 30px 0 35px;">阿里云oss web直传解决方案</h3>
 
@@ -11,13 +11,13 @@
 #### NPM
 
 ```shell
-npm i aliyun-oss -S
+npm i aliyun-oss-web -S
 ```
 
 #### YARN
 
 ```shell
-yarn add aliyun-oss
+yarn add aliyun-oss-web
 ```
 
 
@@ -28,7 +28,7 @@ yarn add aliyun-oss
 #### 方式一. 直接传输
 
 ```js
-import ossImg from 'aliyun-oss'
+import ossImg from 'aliyun-oss-web'
 
 const oss = new ossImg({
   // aliyun oss config
@@ -59,7 +59,7 @@ oss.upload(file,(url)=>{
 
 
 ```js
-import ossImg from 'aliyun-oss'
+import ossImg from 'aliyun-oss-web'
 
 const oss = new ossImg({
   // aliyun oss config
