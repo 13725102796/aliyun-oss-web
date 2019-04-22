@@ -23,7 +23,7 @@ yarn add aliyun-oss-web
 
 ## 快速上手
 > 方法中具体的参数 uploadImageUrl, AccessKeySecret, OSSAccessKeyId, getImg 这4个参数都可以通过阿里云后台拿到
-> imgSignature 和 imgPolicy 需要通过 阿里云web直传的案例进行获取
+> imgSignature 和 imgPolicy 需要通过 阿里云web直传的案例进行获取 * [获取案例](https://segmentfault.com/a/1190000018946920)
 
 #### 方式一. 直接传输
 
@@ -100,14 +100,14 @@ pic.map(item=>{
 
 ## 贡献代码
 
-使用过程中发现任何问题都可以提 [Issue](https://github.com/13725102796/aliyun-oss/issues) 
+使用过程中发现任何问题都可以提 [Issue](https://github.com/13725102796/aliyun-oss-web/issues) 
 
 
 
 ## 链接
 
 * [Vue OSS Demo: 示例工程](https://github.com/13725102796/css3-demo/blob/master/src/page/plugin/ossImg.vue)
-
+* [获取 imgSignature 和 imgPolicy 案例](https://segmentfault.com/a/1190000018946920)
 
 
 

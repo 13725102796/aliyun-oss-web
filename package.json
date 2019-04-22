@@ -1,7 +1,7 @@
 {
-  "name": "testnpm_zyc",
-  "version": "1.0.3",
-  "description": "A test npm for myself!",
+  "name": "aliyun-oss-web",
+  "version": "1.0.4",
+  "description": "阿里云oss web直传解决方案",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,9 @@
     "axios": "^0.18.0",
     "lrz": "^4.9.40"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/13725102796/aliyun-oss-web"
+  }
 }
